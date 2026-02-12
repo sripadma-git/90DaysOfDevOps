@@ -46,7 +46,7 @@ These are foundational commands used in DevOps, Cloud, and Linux administration.
 | `rm file` | Delete a file. |
 | `rm -rf dir` | Remove directory recursively (use carefully). |
 | `find /path -name "file"` | Search files by name. |
-| `du -sh *` | Show disk usage of files/directories. |
+| `du -sh ` | Show disk usage of files/directories. |
 | `df -h` | Show disk space usage. |
 | `stat file` | Display detailed file metadata. |
 | `chmod 755 file` | Change file permissions. |
@@ -66,8 +66,7 @@ These are foundational commands used in DevOps, Cloud, and Linux administration.
 | `dig example.com` | Query DNS records. |
 | `ss -tulnp` | Show listening ports and services. |
 | `netstat -tulnp` | Display open ports and connections. |
-| `traceroute google.com` | Trace route packets take to host. |
-| `nc -zv host port` | Test connectivity to specific port. |
+
 
 ---
 
@@ -81,13 +80,4 @@ These are foundational commands used in DevOps, Cloud, and Linux administration.
 
 ---
 
-# 🚀 Why This Toolkit Matters
 
-These commands are essential for:
-- Server troubleshooting
-- Production debugging
-- DevOps workflows
-- Cloud instance management
-- Incident response
-
-Mastering this toolkit builds strong Linux operational fundamentals.
