@@ -48,15 +48,5 @@ This task helped me understand:
 
 
 
-#90DaysOfDevOps
-
-#DevOpsKaJosh
-
-#TrainWithShubham
-
-TrainWithShubham
-
-Shubham Londhe
-
 
 
