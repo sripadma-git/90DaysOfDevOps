@@ -1,4 +1,4 @@
-Day 11 – File ownership challenge (chown & chgrp) 
+# Day 11 – File ownership challenge (chown & chgrp) 
 
 Task 1: Understanding Ownership  
 
@@ -18,7 +18,7 @@ Owner – The user who owns the file. Has primary control.
 
 Group – A collection of users. Members inherit group-level permissions.  
 
- 
+ ---
 
 Task 2: Basic chown Operations 
 
@@ -30,10 +30,10 @@ Change owner to Tokyo:  sudo chown tokyo devops-file.txt
 
 Verify: ls -l devops-file.txt 
 
- 
-
 Change owner to berlin : sudo chown berlin devops-file.txt  (Verify again) 
 
+ ---
+ 
 Task 3: Basic chgrp Operations 
 
 Create file: touch team-notes.txt 
@@ -46,7 +46,7 @@ Change group: sudo chgrp heist-team team-notes.txt (Verify: ls -l team-notes.txt
 
 Group column should now show: heist-team 
 
- 
+ ---
 
 Task 4: Combined Owner & Group Change. 
 
@@ -57,6 +57,8 @@ Task 4: Combined Owner & Group Change.
 3. Create directory: mkdir app-logs 
 
 4. Change ownership: sudo chown berlin:heist-team app-logs (Verify: ls -ld app-logs) 
+
+---
 
 Task 5: Recursive Ownership 
 
@@ -76,6 +78,8 @@ touch heist-project/plans/strategy.conf
 
 (Verify: ls -lR heist-project/ )  
 
+---
+
 Task 6: Practice Challenge 
 
 Create users:  
@@ -90,7 +94,7 @@ sudo useradd -m nairobi
 
 Sudo groupadd tech-team 
 
-              3. Create directory: mkdir bank-heist  
+3. Create directory: mkdir bank-heist  
 
 Set ownership: 
 
