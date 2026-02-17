@@ -4,7 +4,7 @@ This project demonstrates hands-on practice with Linux Volume Management (LVM) u
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 - Created an EC2 instance
 - Attached 3 EBS volumes:
@@ -66,9 +66,7 @@ vgs
 
 lvcreate -L 500MB -n tws_lv tws_vg
 
-Verify:
-
-lvs
+Verify: lvs
 
 ---
 
@@ -87,7 +85,6 @@ Mount volume:
 mount /dev/tws_vg/tws_lv /mnt/tws_lv_mount
 
 Verify:
-
 df -h
 lsblk
 
@@ -100,8 +97,8 @@ Extend volume by 200MB:
 lvextend -L +200M /dev/tws_vg/tws_lv
 
 Check updated size:
-
 df -h
 lsblk
 
 ---
+
