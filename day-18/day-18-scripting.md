@@ -69,6 +69,7 @@ echo "Script completed."
 ---
 
 # Task 4: Local Variables
+local_demo.sh
 ```
 #!/bin/bash
 
@@ -91,6 +92,7 @@ echo "Outside function (global test): $message"
 ---
 
 # Task 5: Build Script – System Info Reporter.
+system_info.sh
 
 ```
 #!/bin/bash
@@ -137,4 +139,5 @@ main() {
 }
 
 main
+
 ```
