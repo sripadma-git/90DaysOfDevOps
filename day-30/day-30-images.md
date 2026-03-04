@@ -120,10 +120,12 @@ Check `docker ps -a` after each step — observe the state changes.
 2. Remove all stopped containers in one command
 3. Remove unused images.
 
-![image](images/cleanup.png)
-
 4. Check how much disk space Docker is using
 
 - 0B of disk space because all images and containers were removed successfully.
+
+![image](images/cleanup.png)
+
+
 
 ---
