@@ -120,21 +120,18 @@ Private registries are commonly used by companies to securely store internal app
 - The container ran a small program that printed “Hello from Docker!”
 - The container exited.
 
+```` 
 ---
 Task 3: Run Real Containers
 
 1. Run an **Nginx** container and access it in your browser: **docker run -d -p 80:80 nginx**  **<host_port>:<container_port>**
 
-![image](images/Nginx.png)
-
 2.  Run an **Ubuntu** container in interactive mode: **docker run -it ubuntu**
- ![image](images/ubuntu.png)
 
  3. List all running containers: **docker ps**
-![image](images/docker%20ps.png)
 
 4. List all containers (including stopped ones): **docker ps -a**
-![image](images/docker%20ps%20-a.png)
+
 
 5. Stop and remove a container: **docker stop <container-id>** && **docker rm <container-id>**
 
@@ -143,7 +140,7 @@ Task 3: Run Real Containers
 Task 4: Explore
 
 1. Run a container in **detached mode** : **detach mode** **run containers in background mode**
-![image](images/detach.png)
+
 
 2. Give a container a custom **name** : **docker run -d --name web httpd**
 
@@ -152,3 +149,4 @@ Task 4: Explore
 4. Check **logs** of a running container: **docker logs <container-id>**
 
 5. Run a command **inside** a running container : **docker exec -it <container-id>**
+
