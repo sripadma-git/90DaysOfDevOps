@@ -132,7 +132,6 @@ Task 3: Run Real Containers
 
 4. List all containers (including stopped ones): **docker ps -a**
 
-
 5. Stop and remove a container: **docker stop <container-id>** && **docker rm <container-id>**
 
 ---
@@ -149,4 +148,5 @@ Task 4: Explore
 4. Check **logs** of a running container: **docker logs <container-id>**
 
 5. Run a command **inside** a running container : **docker exec -it <container-id>**
+
 
