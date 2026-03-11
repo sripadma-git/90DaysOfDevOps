@@ -1,0 +1,16 @@
+server:
+  name: web-server
+  ip: 192.170.0.1
+  port: 80
+
+
+
+database:
+  host: db-server
+  name: my_database
+  credentials:
+    username: admin
+    password: secret
+
+
+

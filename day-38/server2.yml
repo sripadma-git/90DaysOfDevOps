@@ -1,0 +1,18 @@
+server:
+  name: web-server
+  ip: 192.170.0.1
+  port: 80
+  startup_script: |  # block style
+      sudo yum update -y
+      sudo yum install httpd -y
+      sudo systemctl enabled nginx
+
+database:
+  host: db-server
+  name: dev_db
+  startup_script: > # fold style
+    echo "Staring Database" && \
+    echo "Connecting to db"
+  credentials:
+    user: admin
+    password: sri@123

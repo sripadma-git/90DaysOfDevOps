@@ -1,0 +1,17 @@
+name : sri padma 
+role : DevOps Engineer
+Eperience_years: fresher
+Learning : True
+
+tools:
+  - Linux
+  - Docker
+  - Git and Github
+  - Jenkins
+  - Python
+
+hobbies: ["Travelling", "Cooking", "Reading books"]
+
+#What are the two ways to write a list in YAML?
+#using - dash
+#Using square brackets [ ] inline format
