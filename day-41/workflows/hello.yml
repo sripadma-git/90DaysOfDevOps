@@ -1,0 +1,37 @@
+name: Hello Workflow
+
+on:
+  
+  schedule:
+    - cron: "0 0 * * *" 
+  push:
+    branches: [main]
+
+    paths:
+      - '**.html'
+
+  
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Print Hello
+        run: echo "Hello from GitHub Actions!"
+
+      - name: Show Date
+        run: date
+
+      - name: Show Branch Name
+        run: |
+          echo "Branch: ${{ github.ref_name }}"
+
+      - name: List Files
+        run: ls -la
+
+      - name: Runner OS
+        run: echo "Running on $RUNNER_OS"
