@@ -1,0 +1,44 @@
+name: smart
+
+on:
+ push: 
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+         python-version: 3.12
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: run linter
+        run: flake8 app.py
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "Testing......."
+
+  summary:
+    runs-on: ubuntu-latest
+    needs: [lint-test,test]
+    steps:
+      - name: print branch & commit
+        run: |
+         echo "branch name:" ${{ github.ref_name }}
+         echo "commit message:" ${{ github.event.commits[0].message }}
+         
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            echo "This is a push to the MAIN branch"
+          else
+            echo "This is a push to a FEATURE branch"
+
+          fi
