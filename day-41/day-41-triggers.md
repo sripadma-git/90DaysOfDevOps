@@ -10,7 +10,7 @@
 5. Watch the workflow run automatically
 
 **Verify:** Does it show up on the PR page?
-   - Yes,it show up on the PR page
+   - Yes,it show up on the PR page 
 
 - code:
 ```bash
