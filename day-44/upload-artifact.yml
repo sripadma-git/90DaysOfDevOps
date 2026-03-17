@@ -1,0 +1,21 @@
+name: upload artifact
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate artifact
+        run: |
+          mkdir reports
+          echo "This is Test run successful" > reports/test-report.txt
+
+    
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-report
+          path: reports/test-report.txt
+          
