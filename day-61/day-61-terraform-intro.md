@@ -109,13 +109,12 @@ terraform -version
 aws configure
 # Enter your Access Key ID, Secret Access Key, default region (e.g., ap-south-1), output format (json)
 ```
- ![image](images/awsconfigure.png)
 
 4. Verify AWS access:
 ```bash
 aws sts get-caller-identity
 ```
-  ![image](images/awsconfigure.png)
+
 
 
 You should see your AWS account ID and ARN.
