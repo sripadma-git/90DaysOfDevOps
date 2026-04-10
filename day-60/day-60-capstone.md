@@ -105,7 +105,6 @@
 
 ![image](images/Task7.2.png)
 
-![image](images/Task7.3png)
 ---
 
 ### Task 8: Clean Up and Reflect
