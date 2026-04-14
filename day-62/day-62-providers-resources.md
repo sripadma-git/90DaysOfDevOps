@@ -103,7 +103,7 @@ Add to your config:
 Apply and verify -- your EC2 instance should have a public IP and be reachable.
 
 ![image](images/Task4.png)
-![image](images/Task4.1png)
+![image](images/Task4.1.png)
 
 ---
 
