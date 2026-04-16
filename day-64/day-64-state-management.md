@@ -232,8 +232,6 @@ You should see a **diff** -- Terraform detects that reality no longer matches th
 
 5. Choose Option A -- apply and verify the tags are restored.
 
-![image](images/Task6.2.png)
-
 6. Run `terraform plan` again -- it should show "No changes." Drift resolved.
 
 ![image](images/Task6.3.png)
@@ -288,7 +286,6 @@ You should see a **diff** -- Terraform detects that reality no longer matches th
 
   -  Choose Option A -- apply and verify the tags are restored.
 
-  ![image](images/task6reconcile.png)
 
   -  Run `terraform plan` again -- it should show "No changes." Drift resolved.
 
