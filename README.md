@@ -8,15 +8,15 @@ A day-by-day index of the complete 90-day DevOps challenge. Click any day to jum
 
 | Day | Topic |
 |-----|-------|
-| [Day 01](day-01/) | Introduction to DevOps and Cloud |
-| [Day 02](day-02/) | Linux Architecture, Processes, and systemd |
-| [Day 03](day-03/) | Linux Commands Practice |
-| [Day 04](day-04/) | Linux Practice: Processes and Services |
-| [Day 05](day-05/) | Linux Troubleshooting Drill: CPU, Memory, and Logs |
-| [Day 06](day-06/) | Linux Fundamentals: Read and Write Text Files |
-| [Day 07](day-07/) | Linux File System Hierarchy and Scenario-Based Practice |
-| [Day 08](day-08/) | Cloud Server Setup: Docker, Nginx and Web Deployment |
-| [Day 09](day-09/) | Linux User and Group Management Challenge |
+| [Day 01](Day-1/) | Introduction to DevOps and Cloud |
+| [Day 02](Day-2/) | Linux Architecture, Processes, and systemd |
+| [Day 03](Day-3/) | Linux Commands Practice |
+| [Day 04](Day-4/) | Linux Practice: Processes and Services |
+| [Day 05](Day-5/) | Linux Troubleshooting Drill: CPU, Memory, and Logs |
+| [Day 06](Day-6/) | Linux Fundamentals: Read and Write Text Files |
+| [Day 07](Day-7/) | Linux File System Hierarchy and Scenario-Based Practice |
+| [Day 08](Day-8/) | Cloud Server Setup: Docker, Nginx and Web Deployment |
+| [Day 09](Day-9/) | Linux User and Group Management Challenge |
 | [Day 10](day-10/) | File Permissions and File Operations Challenge |
 | [Day 11](day-11/) | File Ownership Challenge (chown and chgrp) |
 | [Day 12](day-12/) | Breather and Revision (Days 01-11) |
