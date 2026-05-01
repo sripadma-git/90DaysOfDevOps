@@ -331,12 +331,10 @@ vault_password_file = .vault_pass
 ```
 
 Deploy the full stack:
-# Dry run first -- always
 ansible-playbook site.yml --check --diff
 
 ![image](images/Task6.1.png)
 
-# Full deploy
 ansible-playbook site.yml
 
 ![image](images/Task6.2.png)
@@ -344,15 +342,13 @@ ansible-playbook site.yml
 ![image](images/Task6.3.png)
 
 Use tags for selective execution:
-# Only set up Docker and containers
 ansible-playbook site.yml --tags docker
 
 ![image](images/Task6.4.png)
 
-# Only update Nginx config
+
 ansible-playbook site.yml --tags nginx
 
-# Skip common setup
 ansible-playbook site.yml --skip-tags common
 ![image](images/Task6.5.png)
 
