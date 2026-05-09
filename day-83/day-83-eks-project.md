@@ -127,7 +127,7 @@ Open `http://$APP_URL` in your browser:
 
 **The full stack is running on EKS:** Spring Boot serves the UI, MySQL stores accounts and transactions, Ollama's TinyLlama model powers the AI chatbot -- all on managed Kubernetes with persistent storage and autoscaling.
 
-
+```` 
 ![image](images/Task2.2.png)
 
 ![image](images/Task2.3.png)
